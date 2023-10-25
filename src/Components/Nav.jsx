@@ -10,8 +10,8 @@ const Nav = () => {
     const handelActive = () => setActive(!active)
 
     return (
-        <nav className='w-full  bg-LightGrayishBlue '>
-            <div className='flex justify-between items-center w-full p-6 px-8 lg:px-16 h-20 bg-LightGrayishBlue relative max-w-[1320px] md:m-auto'>
+        <nav className='w-full  bg-LightGrayishBlue fixed z-20 '>
+            <div className='flex justify-between items-center w-full p-6 px-8 lg:px-16 h-20 bg-LightGrayishBlue relative max-w-[1440px] md:m-auto'>
                 <img src={logo} alt="logo" className='w-32 h-6'/>
                 <img src={menu} alt="menu logo" className={active ?  'hidden' : 'w-7 h-3 md:hidden cursor-pointer'} onClick={handelActive}/>
                 <img src={menuClose} alt="menu close"   className={active ? 'w-4 h-3 cursor-pointer': 'hidden'}onClick={handelActive}/>
@@ -43,7 +43,7 @@ const Nav = () => {
                         </li>
                     </ul>
                 </div>
-                <button className='hidden md:block bg-gradient-to-r from-LimeGreen to-BrightCyan  py-2 px-5 rounded-2xl text-sm text-White'>Request Invite</button>
+                <button className='hidden md:flex bg-gradient-to-r from-LimeGreen to-BrightCyan  py-2 px-5 rounded-2xl text-sm text-White'>Request Invite</button>
             </div>
         </nav>
     )

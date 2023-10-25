@@ -1,6 +1,9 @@
 import React from 'react'
 import Nav from './Components/Nav'
 import Header from './Components/Header'
+import Aside from './Components/Aside'
+import Article from './Components/Article'
+import Footer from './Components/footer'
 
 
 function App() {
@@ -10,7 +13,9 @@ function App() {
         <>
             <Nav/>
             <Header/>
-            
+            <Aside/>
+            <Article/>
+            <Footer/>
         </>
     )
 }

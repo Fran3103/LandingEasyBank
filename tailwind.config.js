@@ -16,6 +16,7 @@ export default {
             White: 'hsl(0, 0%, 100%)',
             transparent:'rgba(0,0,0,0)'
         },
+       
         extend: {},
     },
     plugins: [],
