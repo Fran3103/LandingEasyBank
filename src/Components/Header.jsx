@@ -1,16 +1,14 @@
 import React from 'react'
 import imgMockups from '../assets/images/image-mockups.png'
-import bgDesktop from '../assets/images/bg-intro-desktop.svg'
-import bgMobile from '../assets/images/bg-intro-mobile.svg'
+
 
 const Header = () => {
     return (
-        <header className='flex flex-col m-auto lg:flex-row-reverse lg:justify-between lg:items-center lg:h-[485px]  relative  max-w-[1440px]'>
-            {/*<div className='w-full relative  '>
-                <img src={bgDesktop} alt="desktop" className='  h-full left-72 mt-20 hidden md:block lg:w-[800px] lg:left-16 lg:right-12 lg:top-0 relative z-0' />
-                <img src={bgMobile} alt="desktop" className='  h-full left-72 mt-20 md:hidden ' />
-                <img src={imgMockups} alt="mockups" className='h-[60%] sm:h[80%] md:h-[80%]   absolute top-24 z-10 -right-12 lg:h-full' />
-            </div>*/}
+        <header className='flex flex-col m-auto lg:flex-row-reverse lg:justify-between lg:items-center lg:h-[485px]  relative  max-w-[1440px]  z-0 '>
+            <div className='w-full relative bg-hero-mobile bg-no-repeat mx-auto bg-cover   lg:bg-[right_1rem_top_12rem] xl:bg-[right_2rem_top_12rem] lg:bg-contain lg:bg-hero-desktop '>
+             
+                <img src={imgMockups} alt="mockups" className='px-7 pt-7 lg:mt-8 m-auto' />
+            </div>
            
             <div className='flex flex-col justify-center items-center lg:pr-5  text-center gap-6 lg:p-16 lg:pl-6 lg:mt-24 lg:text-left lg:items-start lg:ml-12  w-full '>
                 <h1 className='text-4xl md:text-5xl'>Next generation digital banking</h1>

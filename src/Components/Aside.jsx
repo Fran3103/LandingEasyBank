@@ -6,10 +6,10 @@ import onboarding from '../assets/images/icon-onboarding.svg'
 const Aside = () => {
     return (
         <>
-            <div className='max-w-[1440px] flex flex-col justify-center items-center text-center gap-4 mt-6 bg-VeryLightGray p-3 m-auto '>
+            <div className='max-w-[1440px] flex flex-col justify-center items-center lg:items-start text-center gap-4 mt-8 bg-VeryLightGray p-3 m-auto '>
                 <div >
-                    <h2 className='text-3xl mx-4 mb-4'> Why choose Easybank?</h2>
-                    <p className='text-GrayishBlue mx-2'> We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>    
+                    <h2 className='text-3xl mx-4 mb-4 lg:text-left lg:pt-8'> Why choose Easybank?</h2>
+                    <p className='text-GrayishBlue mx-2 lg:text-left lg:pl-3'> We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>    
                 </div>
                 <div className='md:flex md:justify-center md:items-center md:gap-4 md:mt-8 p-5'>
                     <div className='flex flex-col justify-center items-center gap-3 mb-9 md:items-start md:text-left'>
