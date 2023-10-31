@@ -3,7 +3,8 @@ import Nav from './Components/Nav'
 import Header from './Components/Header'
 import Aside from './Components/Aside'
 import Article from './Components/Article'
-import Footer from './Components/footer'
+import Footer from './Components/Foter'
+
 
 
 function App() {
