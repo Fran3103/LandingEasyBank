@@ -7,8 +7,8 @@ import tw from '../assets/images/icon-twitter.svg'
 import youtube from '../assets/images/icon-youtube.svg'
 const Footer = () => {
     return (
-        <div className='w-screen bg-DarkBlue'>
-            <div className='flex flex-col justify-center items-center gap-8 py-8 md:flex-row md:justify-between max-w-[1440px] m-auto md:px-10'>
+        <div className='w-screen bg-DarkBlue '>
+            <div className='flex flex-col justify-center items-center gap-8 py-8 md:flex-row md:justify-between max-w-[1440px] m-auto md:px-16'>
                 <div className='flex flex-col justify-center items-center gap-8 md:gap-10 md:items-start'>
                     <img src={logo} alt="logo" className='w-32 ' />
                     <div className='flex justify-center items-center gap-3 md:col-1 md:row '>

@@ -5,12 +5,12 @@ import currency from '../assets/images/image-currency.jpg'
 import plane from '../assets/images/image-plane.jpg'
 const Article = () => {
     return (
-        <div className='flex flex-col justify-center items-center bg-VeryLightGray gap-5 p-4 max-w-[1440px] md:items-start md:m-auto' >
+        <div className='flex flex-col justify-center items-center bg-VeryLightGray gap-5  max-w-[1440px] md:items-start md:m-auto p-16' >
             <h2 className='text-3xl '>Latest Articles</h2>
             <div className='md:flex md:flex-wrap md:items-center md:justify-center  gap-5 lg:gap-9 '>
 
             
-                <div className='flex flex-col w-[250px] md:w-[280px] lg:w-[320px] mb-6'>
+                <div className='flex flex-col w-[250px] md:w-[280px] lg:w-[300px] mb-6'>
                     <img src={currency} alt="currency" className='w-full h-[200px] rounded-t-md'/>
                     <div className='p-5 flex flex-col gap-3 px-4  bg-White'>
                         <p className='text-xs text-GrayishBlue'>By Claire Robinson</p>
@@ -19,7 +19,7 @@ const Article = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col w-[250px] md:w-[280px] lg:w-[320px] mb-6'>
+                <div className='flex flex-col w-[250px] md:w-[280px] lg:w-[300px] mb-6'>
                     <img src={restaurant} alt="restaurant" className='w-full rounded-t-md' />
                     <div className='p-5 flex flex-col gap-3 px-4 bg-White'>
                         <p className='text-xs text-GrayishBlue'>By Wilson Hutton</p>
@@ -28,7 +28,7 @@ const Article = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col w-[250px] md:w-[280px] lg:w-[320px] mb-6'>
+                <div className='flex flex-col w-[250px] md:w-[280px] lg:w-[300px] mb-6'>
                     <img src={plane} alt="plane" className='w-full rounded-t-md' />
                     <div className='p-5 flex flex-col gap-3 px-4  bg-White'>
                         <p className='text-xs text-GrayishBlue'>By Wilson Hutton</p>
@@ -37,7 +37,7 @@ const Article = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col w-[250px] md:w-[280px] lg:w-[320px] mb-6'>
+                <div className='flex flex-col w-[250px] md:w-[280px] lg:w-[300px] mb-6'>
                     <img src={confetti} alt="confetti" className='w-full rounded-t-md' />
                     <div className='p-5 flex flex-col gap-3 px-4  bg-White'>
                         <p className='text-xs text-GrayishBlue'>By Claire Robinson</p>
