@@ -19,8 +19,8 @@ export default {
        
         extend: {
             backgroundImage: {
-                'hero-desktop': 'url(\'./src/assets/images/bg-intro-desktop.svg\')',
-                'hero-mobile': 'url(\'./src/assets/images/bg-intro-mobile.svg\')',
+                'hero-desktop': 'url(\'https://raw.githubusercontent.com/Fran3103/LandingEasyBank/6643a549b008bc67c5a1639bf39aa98eb51d8522/src/assets/images/bg-intro-desktop.svg\')',
+                'hero-mobile': 'url(\'https://raw.githubusercontent.com/Fran3103/LandingEasyBank/6643a549b008bc67c5a1639bf39aa98eb51d8522/src/assets/images/bg-intro-mobile.svg\')',
             },
         },
     },
