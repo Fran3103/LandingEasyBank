@@ -19,8 +19,8 @@ export default {
        
         extend: {
             backgroundImage: {
-                'hero-desktop': 'url(\'src/assets/images/bg-intro-desktop.svg\')',
-                'hero-mobile': 'url(\'src/assets/images/bg-intro-mobile.svg\')',
+                'hero-desktop': 'url(\'./src/assets/images/bg-intro-desktop.svg\')',
+                'hero-mobile': 'url(\'./src/assets/images/bg-intro-mobile.svg\')',
             },
         },
     },
